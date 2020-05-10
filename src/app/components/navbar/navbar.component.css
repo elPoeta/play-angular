@@ -1,0 +1,23 @@
+header {
+  position: sticky;
+  height: 70px;
+  background: #333;
+  color: #fff;
+  display: grid;
+  align-content: center;
+  padding: 8px;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+ nav h1 {
+   font-size: 1.6em;
+ }
+nav ul li {
+  display: inline-block;
+  list-style: none;
+  padding: 5px;
+  font-size: 1.2em;
+}
